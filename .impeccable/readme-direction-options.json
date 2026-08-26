@@ -1,0 +1,155 @@
+{
+  "title": "Elige la nueva identidad del README",
+  "question": "Todas las opciones eliminan el tono genérico y ponen el trabajo real antes que los adjetivos.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Bitácora de ingeniería",
+      "kicker": "THE ROLL",
+      "lineage": "cuaderno de laboratorio y registro de proyecto",
+      "thesis": "Cada proyecto aparece como evidencia fechada de algo construido, no como una promesa.",
+      "palette": ["#0d1117", "#f0f6fc", "#2f81f7", "#8b949e"],
+      "materials": ["reglas técnicas", "anotaciones", "sellos de estado"],
+      "viewport": "Nombre, declaración de una línea y un índice compacto que conduce al portafolio antes del primer proyecto.",
+      "risk": "Puede sentirse demasiado técnico si las anotaciones compiten con los proyectos.",
+      "raised": [
+        {"from": "Cartel tipográfico", "raise": "El enlace al portafolio gana escala y funciona como una decisión visible."},
+        {"from": "Instrumentos", "raise": "Cada bloque conserva una sola verdad y una lectura inequívoca."},
+        {"from": "Busytown", "raise": "Los proyectos explican qué hace cada herramienta con lenguaje concreto."}
+      ],
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "identidad + portafolio", "x": 0, "y": 0, "w": 12, "h": 3, "accent": true},
+        {"label": "proyecto 01", "x": 0, "y": 4, "w": 6, "h": 3},
+        {"label": "proyecto 02", "x": 6, "y": 4, "w": 6, "h": 3},
+        {"label": "herramientas + contacto", "x": 0, "y": 8, "w": 12, "h": 2}
+      ]},
+      "comp": ".impeccable/mocks/decision/assigned.webp"
+    },
+    {
+      "id": "model-pick",
+      "label": "Mesa de trabajo",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "fichas de taller y etiquetas de prototipo",
+      "thesis": "El perfil se lee como una mesa con cuatro prototipos terminados y sus decisiones esenciales.",
+      "palette": ["#ffffff", "#171717", "#0057b8", "#d9d9d9"],
+      "materials": ["fichas numeradas", "etiquetas de componente"],
+      "viewport": "Una introducción muy corta abre paso a una cuadrícula de proyectos con enlaces visibles.",
+      "risk": "Es la dirección más familiar y puede parecer un portafolio convencional si pierde precisión.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "presentación", "x": 0, "y": 0, "w": 7, "h": 3, "accent": true},
+        {"label": "ir al portafolio", "x": 8, "y": 0, "w": 4, "h": 3},
+        {"label": "prototipos", "x": 0, "y": 4, "w": 12, "h": 4},
+        {"label": "stack", "x": 0, "y": 9, "w": 12, "h": 1}
+      ]},
+      "comp": ".impeccable/mocks/decision/model-pick.webp"
+    },
+    {
+      "id": "challenger-street-poster",
+      "label": "Cartel tipográfico",
+      "verdict": "competitive",
+      "lineage": "cartel urbano de teatro",
+      "thesis": "El nombre y los proyectos ocupan la página con títulos grandes y enlaces que parecen llamados públicos.",
+      "palette": ["#f5d328", "#111111", "#ffffff", "#e5482d"],
+      "materials": ["tipografía condensada", "bandas impresas"],
+      "viewport": "Leonard y el enlace al portafolio dominan; los proyectos se apilan como un programa cultural.",
+      "case": "Gana personalidad, pero el Markdown de GitHub limita su composición y reduce claridad.",
+      "risk": "Puede gritar más de lo que demuestra.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "LEONARD", "x": 0, "y": 0, "w": 12, "h": 4, "accent": true},
+        {"label": "PROYECTOS", "x": 0, "y": 4, "w": 8, "h": 5},
+        {"label": "PORTAFOLIO", "x": 8, "y": 4, "w": 4, "h": 5}
+      ]},
+      "hero": "https://impeccable.style/worlds/cards/brand-identity-canon-scher-street-typography-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/brand-identity-canon-scher-street-typography.webp",
+      "comp": ".impeccable/mocks/decision/challenger-street-poster.webp"
+    },
+    {
+      "id": "challenger-instruments",
+      "label": "Panel de instrumentos",
+      "verdict": "declined",
+      "lineage": "instrumentación nocturna de aviación",
+      "thesis": "Cada proyecto funciona como un instrumento que reporta una capacidad concreta.",
+      "palette": ["#090b0d", "#f4f7f9", "#96e88d", "#d78b3a"],
+      "materials": ["placas negras", "marcas luminosas"],
+      "viewport": "Seis módulos densos organizan proyectos, stack y disponibilidad.",
+      "case": "La metáfora es fuerte, pero convierte proyectos humanos en indicadores abstractos.",
+      "kept": "Una verdad por bloque y jerarquía sin ambigüedad.",
+      "risk": "Se sentiría como un dashboard decorativo.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-night-flight-six-pack-hero.webp"
+    },
+    {
+      "id": "challenger-data-field",
+      "label": "Campo de datos",
+      "verdict": "declined",
+      "lineage": "visualización monocromática de datos",
+      "thesis": "El perfil se comprime en columnas tipográficas y señales binarias.",
+      "palette": ["#000000", "#ffffff"],
+      "materials": ["barras", "retícula numérica"],
+      "viewport": "Una banda de datos presenta nombre, stack y cuatro proyectos como índices.",
+      "case": "Tiene carácter, pero sacrifica calidez y comprensión para visitantes no técnicos.",
+      "kept": "Disciplina para eliminar todo elemento que no informe.",
+      "risk": "Parece una pieza artística antes que un perfil personal.",
+      "hero": "https://impeccable.style/worlds/cards/ikeda-datamatics-hero.webp"
+    },
+    {
+      "id": "challenger-cutaway",
+      "label": "Taller en corte",
+      "verdict": "declined",
+      "lineage": "ilustración explicativa de mundos en actividad",
+      "thesis": "Cada proyecto abre su pared y muestra qué problema resuelve por dentro.",
+      "palette": ["#fffdf4", "#bd4134", "#f2bb36", "#4f8c52"],
+      "materials": ["etiquetas", "diagramas explicativos"],
+      "viewport": "Una escena continua conecta MI SAES, horarios, automatización y portafolio.",
+      "case": "Explica bien, pero depende de ilustraciones que el README no tiene.",
+      "kept": "Cada proyecto debe nombrar su usuario y su utilidad real.",
+      "risk": "Sin arte propio se reduce a una metáfora infantil.",
+      "hero": "https://impeccable.style/worlds/cards/graphic-worlds-publishing-busytown-cross-section-hero.webp"
+    },
+    {
+      "id": "challenger-clay",
+      "label": "Construcción por capas",
+      "verdict": "declined",
+      "lineage": "torre de barro hecha a mano",
+      "thesis": "El recorrido asciende desde el aprendizaje hasta proyectos cada vez más completos.",
+      "palette": ["#8b4d35", "#d28a62", "#f2e5d5", "#3a261f"],
+      "materials": ["bandas", "sellos de proceso"],
+      "viewport": "Una secuencia vertical muestra cuatro etapas de construcción.",
+      "case": "La progresión funciona, pero su material no pertenece al mundo de Leonard.",
+      "kept": "Mostrar avance mediante resultados, no mediante autoevaluaciones.",
+      "risk": "La metáfora artesanal eclipsaría la tecnología.",
+      "hero": "https://impeccable.style/worlds/cards/clay-ceramics-fracture-coiled-earth-tower-hero.webp"
+    },
+    {
+      "id": "challenger-rain",
+      "label": "Jardín de trayectorias",
+      "verdict": "declined",
+      "lineage": "mundo surreal de gravedad variable",
+      "thesis": "Cada proyecto sigue una trayectoria visual distinta hacia el problema que resuelve.",
+      "palette": ["#35433e", "#7eb4db", "#d55b55", "#0e1110"],
+      "materials": ["trayectorias", "campos de dirección"],
+      "viewport": "Líneas de color conectan habilidades con productos y usuarios.",
+      "case": "Es memorable, pero no mejora la lectura dentro de GitHub.",
+      "kept": "El recorrido completo debe desembocar claramente en el portafolio.",
+      "risk": "Se percibiría como decoración conceptual.",
+      "hero": "https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-gravity-rain-garden-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": true},
+  "canon": true,
+  "canonCard": {
+    "label": "README convencional bien ejecutado",
+    "thesis": "Encabezado, presentación, proyectos, stack y contacto con máxima limpieza.",
+    "palette": ["#ffffff", "#111827", "#2563eb"],
+    "materials": ["Markdown limpio", "badges mínimos"],
+    "viewport": "Avatar y biografía breve seguidos por tarjetas de repositorios.",
+    "risk": "Correcto, pero indistinguible de miles de perfiles de GitHub.",
+    "wireframe": {"cols": 12, "rows": 10, "regions": [
+      {"label": "hero", "x": 0, "y": 0, "w": 12, "h": 3, "accent": true},
+      {"label": "proyectos", "x": 0, "y": 4, "w": 12, "h": 4},
+      {"label": "stack + contacto", "x": 0, "y": 9, "w": 12, "h": 1}
+    ]},
+    "comp": ".impeccable/mocks/decision/canon.webp"
+  },
+  "steer": true
+}

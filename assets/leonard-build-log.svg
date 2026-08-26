@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Leonard Sánchez — Build Log</title>
+  <desc id="desc">Plano técnico animado que conecta productos web, MI SAES 2.0, automatización y APIs.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06111a"/>
+      <stop offset="1" stop-color="#0a1f2d"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#164254" stroke-width="1" opacity=".34"/>
+    </pattern>
+    <filter id="soft-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="360" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    .mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    .signal{stroke-dasharray:10 12;animation:flow 8s linear infinite}
+    .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3.6s cubic-bezier(.16,1,.3,1) infinite}
+    .pulse-b{animation-delay:1.2s}.pulse-c{animation-delay:2.4s}
+    .scan{animation:scan 9s cubic-bezier(.16,1,.3,1) infinite}
+    @keyframes flow{to{stroke-dashoffset:-176}}
+    @keyframes pulse{0%,70%,100%{opacity:.34;transform:scale(.78)}12%{opacity:1;transform:scale(1)}}
+    @keyframes scan{0%,12%{transform:translateX(-90px);opacity:0}24%,74%{opacity:.7}88%,100%{transform:translateX(1290px);opacity:0}}
+    @media(prefers-reduced-motion:reduce){.signal,.pulse,.scan{animation:none}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#panel)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+    <path d="M0 288H1200" stroke="#22d3ee" stroke-width="1" opacity=".2"/>
+    <path d="M0 70H1200" stroke="#22d3ee" stroke-width="1" opacity=".12"/>
+    <rect class="scan" x="0" y="0" width="70" height="360" fill="#22d3ee" opacity=".08"/>
+
+    <g transform="translate(62 30)">
+      <text class="sans" x="0" y="70" fill="#f8fafc" font-size="54" font-weight="720" letter-spacing="-1.5">Leonard Sánchez</text>
+      <rect x="0" y="91" width="86" height="4" rx="2" fill="#22d3ee"/>
+      <text class="sans" x="0" y="136" fill="#c7f9ff" font-size="20">Ingeniería en Computación</text>
+      <text class="sans" x="0" y="170" fill="#8ab9c5" font-size="17">Productos web · Automatización · Herramientas para estudiantes</text>
+      <g transform="translate(0 254)">
+        <circle cx="6" cy="-5" r="6" fill="#22d3ee" filter="url(#soft-glow)"/>
+        <text class="mono" x="24" y="0" fill="#67e8f9" font-size="13" letter-spacing="1.4">DESIGN / BUILD / TEST</text>
+        <text class="mono" x="236" y="0" fill="#557b86" font-size="13">CDMX / MX</text>
+      </g>
+    </g>
+
+    <g fill="none" stroke="#22d3ee" stroke-width="1.5" opacity=".72">
+      <path class="signal" d="M690 180H790V105H908"/>
+      <path class="signal" d="M690 180H820V180H1010"/>
+      <path class="signal" d="M690 180H790V255H908"/>
+    </g>
+
+    <g transform="translate(624 142)">
+      <rect width="132" height="76" rx="14" fill="#0d2836" stroke="#22d3ee"/>
+      <circle cx="22" cy="22" r="5" fill="#22d3ee" filter="url(#soft-glow)"/>
+      <text class="mono" x="22" y="48" fill="#f8fafc" font-size="13" font-weight="700">BUILD</text>
+      <text class="mono" x="22" y="64" fill="#5fa6b6" font-size="10">SHIP / LEARN</text>
+    </g>
+
+    <g transform="translate(908 68)">
+      <rect width="222" height="74" rx="14" fill="#0a1a25" stroke="#1b5668"/>
+      <circle class="pulse" cx="22" cy="22" r="6" fill="#22d3ee"/>
+      <text class="sans" x="42" y="27" fill="#f8fafc" font-size="15" font-weight="650">MI SAES 2.0</text>
+      <text class="mono" x="22" y="54" fill="#5fa6b6" font-size="10">CHROME / EDUCATION</text>
+    </g>
+    <g transform="translate(1010 143)">
+      <rect width="144" height="74" rx="14" fill="#0a1a25" stroke="#1b5668"/>
+      <circle class="pulse pulse-b" cx="22" cy="22" r="6" fill="#22d3ee"/>
+      <text class="sans" x="42" y="27" fill="#f8fafc" font-size="15" font-weight="650">WEB</text>
+      <text class="mono" x="22" y="54" fill="#5fa6b6" font-size="10">TS / NEXT.JS</text>
+    </g>
+    <g transform="translate(908 218)">
+      <rect width="222" height="74" rx="14" fill="#0a1a25" stroke="#1b5668"/>
+      <circle class="pulse pulse-c" cx="22" cy="22" r="6" fill="#22d3ee"/>
+      <text class="sans" x="42" y="27" fill="#f8fafc" font-size="15" font-weight="650">AUTOMATIZACIÓN</text>
+      <text class="mono" x="22" y="54" fill="#5fa6b6" font-size="10">APIs / WORKFLOWS</text>
+    </g>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="358.5" rx="19.25" fill="none" stroke="#1b5668" stroke-width="1.5"/>
+</svg>

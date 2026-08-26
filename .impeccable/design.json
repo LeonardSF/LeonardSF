@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-26T12:00:00-06:00",
+  "title": "Design System: LeonardSF GitHub Profile",
+  "extensions": {
+    "colorMeta": {
+      "hero-ink": { "role": "neutral", "displayName": "Tinta de plano", "canonical": "#06111a", "tonalRamp": ["#03090e", "#06111a", "#0a1f2d", "#0d2836", "#164254", "#1b5668", "#5fa6b6", "#c7f9ff"] },
+      "hero-depth": { "role": "neutral", "displayName": "Profundidad azul-negra", "canonical": "#0a1f2d", "tonalRamp": ["#03090e", "#06111a", "#0a1f2d", "#0d2836", "#164254", "#1b5668", "#5fa6b6", "#c7f9ff"] },
+      "hero-node": { "role": "neutral", "displayName": "Nodo técnico", "canonical": "#0a1a25", "tonalRamp": ["#03090e", "#06111a", "#0a1a25", "#0d2836", "#164254", "#1b5668", "#5fa6b6", "#c7f9ff"] },
+      "hero-build": { "role": "neutral", "displayName": "Nodo BUILD", "canonical": "#0d2836", "tonalRamp": ["#03090e", "#06111a", "#0a1f2d", "#0d2836", "#164254", "#1b5668", "#5fa6b6", "#c7f9ff"] },
+      "signal-cyan": { "role": "primary", "displayName": "Cyan de señal", "canonical": "#22d3ee", "tonalRamp": ["#083344", "#155e75", "#0e7490", "#0891b2", "#06b6d4", "#22d3ee", "#67e8f9", "#cffafe"] },
+      "signal-soft": { "role": "primary", "displayName": "Cyan suave", "canonical": "#67e8f9", "tonalRamp": ["#083344", "#155e75", "#0e7490", "#0891b2", "#06b6d4", "#22d3ee", "#67e8f9", "#cffafe"] },
+      "hero-text": { "role": "neutral", "displayName": "Texto de hero", "canonical": "#f8fafc", "tonalRamp": ["#0f172a", "#1e293b", "#334155", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f8fafc"] },
+      "hero-subtitle": { "role": "neutral", "displayName": "Subtítulo de hero", "canonical": "#c7f9ff", "tonalRamp": ["#083344", "#155e75", "#0e7490", "#0891b2", "#22d3ee", "#67e8f9", "#a5f3fc", "#c7f9ff"] },
+      "hero-muted": { "role": "neutral", "displayName": "Texto secundario de hero", "canonical": "#8ab9c5", "tonalRamp": ["#102a33", "#164254", "#1b5668", "#34788a", "#5fa6b6", "#8ab9c5", "#b6dbe3", "#e8fbff"] },
+      "hero-technical": { "role": "neutral", "displayName": "Dato técnico de hero", "canonical": "#5fa6b6", "tonalRamp": ["#102a33", "#164254", "#1b5668", "#34788a", "#5fa6b6", "#8ab9c5", "#b6dbe3", "#e8fbff"] },
+      "hero-stroke": { "role": "neutral", "displayName": "Trazo de hero", "canonical": "#1b5668", "tonalRamp": ["#071b22", "#102a33", "#164254", "#1b5668", "#34788a", "#5fa6b6", "#8ab9c5", "#c7f9ff"] },
+      "hero-grid": { "role": "neutral", "displayName": "Retícula de hero", "canonical": "#164254", "tonalRamp": ["#071b22", "#102a33", "#164254", "#1b5668", "#34788a", "#5fa6b6", "#8ab9c5", "#c7f9ff"] },
+      "canvas-dark": { "role": "neutral", "displayName": "Lienzo GitHub oscuro", "canonical": "#0d1117", "tonalRamp": ["#0d1117", "#161b22", "#21262d", "#30363d", "#484f58", "#6e7681", "#8b949e", "#f0f6fc"] },
+      "canvas-light": { "role": "neutral", "displayName": "Lienzo GitHub claro", "canonical": "#ffffff", "tonalRamp": ["#1f2328", "#343a40", "#57606a", "#6e7781", "#8c959f", "#afb8c1", "#d0d7de", "#ffffff"] },
+      "text-dark": { "role": "neutral", "displayName": "Tinta principal oscura", "canonical": "#f0f6fc", "tonalRamp": ["#161b22", "#21262d", "#30363d", "#484f58", "#6e7681", "#8b949e", "#c9d1d9", "#f0f6fc"] },
+      "text-light": { "role": "neutral", "displayName": "Tinta principal clara", "canonical": "#1f2328", "tonalRamp": ["#1f2328", "#343a40", "#57606a", "#6e7781", "#8c959f", "#afb8c1", "#d0d7de", "#f6f8fa"] },
+      "text-muted-dark": { "role": "neutral", "displayName": "Tinta secundaria oscura", "canonical": "#8b949e", "tonalRamp": ["#161b22", "#21262d", "#30363d", "#484f58", "#6e7681", "#8b949e", "#c9d1d9", "#f0f6fc"] },
+      "text-muted-light": { "role": "neutral", "displayName": "Tinta secundaria clara", "canonical": "#656d76", "tonalRamp": ["#1f2328", "#343a40", "#57606a", "#656d76", "#8c959f", "#afb8c1", "#d0d7de", "#f6f8fa"] },
+      "link-dark": { "role": "primary", "displayName": "Azul de enlace oscuro", "canonical": "#58a6ff", "tonalRamp": ["#051d4d", "#0a3069", "#0969da", "#1f6feb", "#388bfd", "#58a6ff", "#79c0ff", "#cae8ff"] },
+      "link-light": { "role": "primary", "displayName": "Azul de enlace claro", "canonical": "#0969da", "tonalRamp": ["#031d3d", "#033d8b", "#0550ae", "#0969da", "#218bff", "#54aeff", "#80ccff", "#ddf4ff"] },
+      "rule-dark": { "role": "neutral", "displayName": "Regla oscura", "canonical": "#30363d", "tonalRamp": ["#0d1117", "#161b22", "#21262d", "#30363d", "#484f58", "#6e7681", "#8b949e", "#f0f6fc"] },
+      "rule-light": { "role": "neutral", "displayName": "Regla clara", "canonical": "#d0d7de", "tonalRamp": ["#1f2328", "#343a40", "#57606a", "#6e7781", "#8c959f", "#afb8c1", "#d0d7de", "#ffffff"] },
+      "code-dark": { "role": "neutral", "displayName": "Código inline oscuro", "canonical": "rgba(110, 118, 129, 0.4)", "tonalRamp": ["#161b22", "#21262d", "#30363d", "#484f58", "#6e7681", "#8b949e", "#c9d1d9", "#f0f6fc"] },
+      "code-light": { "role": "neutral", "displayName": "Código inline claro", "canonical": "rgba(175, 184, 193, 0.2)", "tonalRamp": ["#1f2328", "#343a40", "#57606a", "#6e7781", "#8c959f", "#afb8c1", "#d0d7de", "#f6f8fa"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Nombre", "purpose": "Nombre de Leonard en la cabecera." },
+      "headline": { "displayName": "Sección", "purpose": "Títulos de los grandes bloques del perfil." },
+      "title": { "displayName": "Proyecto", "purpose": "Nombres de proyectos y piezas destacadas." },
+      "body": { "displayName": "Lectura", "purpose": "Descripciones concretas y contacto." },
+      "label": { "displayName": "Dato técnico", "purpose": "Lenguajes, plataformas y stack reales." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "flow-desktop", "value": "8s linear infinite", "purpose": "Desplaza el trazo discontinuo por la red del hero de escritorio." },
+      { "name": "flow-mobile", "value": "7s linear infinite", "purpose": "Desplaza el trazo discontinuo en la composición móvil." },
+      { "name": "pulse", "value": "3.6s cubic-bezier(.16,1,.3,1) infinite", "purpose": "Escalona los estados de los tres nodos de producto." },
+      { "name": "scan", "value": "9s cubic-bezier(.16,1,.3,1) infinite", "purpose": "Barre horizontalmente el plano de escritorio." },
+      { "name": "reduced-motion", "value": "none", "purpose": "Detiene flow, pulse y scan cuando el usuario prefiere movimiento reducido." }
+    ],
+    "breakpoints": [
+      { "name": "github-content-collapse", "value": "544px" },
+      { "name": "hero-picture-switch", "value": "600px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Responsive Technical Hero",
+      "kind": "custom",
+      "refersTo": "technical-hero",
+      "description": "Plano técnico cyan con composiciones específicas para escritorio y móvil.",
+      "html": "<picture class=\"ds-technical-hero\"><source media=\"(max-width: 600px)\" srcset=\"./assets/leonard-build-log-mobile.svg\"><img src=\"./assets/leonard-build-log.svg\" alt=\"Leonard Sánchez: Ingeniería en Computación, productos web, automatización y herramientas para estudiantes\"></picture>",
+      "css": ".ds-technical-hero { display: block; width: 100%; } .ds-technical-hero img { display: block; width: 100%; height: auto; border-radius: 20px; } @media (max-width: 600px) { .ds-technical-hero img { border-radius: 24px; } } @media (prefers-reduced-motion: reduce) { .ds-technical-hero img { animation: none; } }"
+    },
+    {
+      "name": "Primary Portfolio Link",
+      "kind": "nav",
+      "refersTo": "link-primary",
+      "description": "Única acción dominante inmediatamente después del hero.",
+      "html": "<a class=\"ds-primary-link\" href=\"https://leonardsf.dev/\">Explorar proyectos y servicios → leonardsf.dev</a>",
+      "css": ".ds-primary-link { color: #0969da; font: 600 16px/1.5 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; text-decoration: none; } .ds-primary-link:hover { text-decoration: underline; } .ds-primary-link:focus-visible { outline: 2px solid #0969da; outline-offset: 2px; } @media (prefers-color-scheme: dark) { .ds-primary-link { color: #58a6ff; } .ds-primary-link:focus-visible { outline-color: #58a6ff; } }"
+    },
+    {
+      "name": "Technical Label",
+      "kind": "chip",
+      "refersTo": "technical-label",
+      "description": "Etiqueta monoespaciada para una tecnología comprobable.",
+      "html": "<code class=\"ds-technical-label\">TypeScript</code>",
+      "css": ".ds-technical-label { background: rgba(175, 184, 193, 0.2); color: #1f2328; border-radius: 6px; padding: 2px 6px; font: 400 0.85em/1.5 ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; } @media (prefers-color-scheme: dark) { .ds-technical-label { background: rgba(110, 118, 129, 0.4); color: #f0f6fc; } }"
+    },
+    {
+      "name": "Project Entry",
+      "kind": "custom",
+      "description": "Bloque abierto que une nombre, utilidad y stack sin apariencia de tarjeta.",
+      "html": "<article class=\"ds-project\"><h3>MI SAES 2.0</h3><p><strong>Una extensión de Chrome para estudiantes del IPN.</strong> Añade al SAES una forma más clara de consultar materias.</p><p><code>JavaScript</code> <code>Manifest V3</code></p></article>",
+      "css": ".ds-project { color: #1f2328; font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 72ch; } .ds-project h3 { margin: 0 0 8px; font-size: 1.25em; line-height: 1.25; } .ds-project p { margin: 0 0 16px; } .ds-project code { background: rgba(175, 184, 193, 0.2); border-radius: 6px; padding: 2px 6px; font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 0.85em; } @media (prefers-color-scheme: dark) { .ds-project { color: #f0f6fc; } .ds-project code { background: rgba(110, 118, 129, 0.4); } }"
+    },
+    {
+      "name": "Section Rule",
+      "kind": "custom",
+      "refersTo": "section-rule",
+      "description": "Divisor fino entre el bloque de acciones y el registro técnico.",
+      "html": "<hr class=\"ds-section-rule\">",
+      "css": ".ds-section-rule { height: 1px; margin: 24px 0; padding: 0; background: #d0d7de; border: 0; } @media (prefers-color-scheme: dark) { .ds-section-rule { background: #30363d; } }"
+    },
+    {
+      "name": "Secondary Navigation",
+      "kind": "nav",
+      "description": "Navegación compacta para destinos secundarios.",
+      "html": "<nav class=\"ds-secondary-nav\"><a href=\"https://github.com/LeonardSF?tab=repositories\">Repositorios</a><span aria-hidden=\"true\"> · </span><a href=\"https://t.me/LeonardSF\">Telegram</a></nav>",
+      "css": ".ds-secondary-nav { color: #656d76; font: 400 13px/1.5 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-secondary-nav a { color: #0969da; text-decoration: none; } .ds-secondary-nav a:hover { text-decoration: underline; } .ds-secondary-nav a:focus-visible { outline: 2px solid #0969da; outline-offset: 2px; } @media (prefers-color-scheme: dark) { .ds-secondary-nav { color: #8b949e; } .ds-secondary-nav a { color: #58a6ff; } .ds-secondary-nav a:focus-visible { outline-color: #58a6ff; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Bitácora de ingeniería",
+    "overview": "El perfil se siente como un registro técnico escrito por una persona que construye: directo, abierto y verificable. Un plano azul-negro abre la lectura y convierte proceso, áreas de trabajo y conexiones reales en geometría técnica; el resto conserva el lenguaje nativo de GitHub, no una página promocional disfrazada dentro de Markdown.\n\nEl cyan funciona como señal: recorre conexiones, marca estados y subraya identidad sin teñir todo el documento. El hero contiene la única expresión principal de nombre y especialidad; debajo sólo continúan la acción dominante, la navegación secundaria, los proyectos, las herramientas y el contacto. Los bloques editoriales permanecen abiertos; los nodos cerrados pertenecen únicamente al diagrama.",
+    "keyCharacteristics": [
+      "Hero azul-negro con cyan de señal sobre la paleta nativa de GitHub.",
+      "Diagrama técnico geométrico que representa BUILD → productos.",
+      "Composición específica para escritorio y móvil mediante `picture`.",
+      "Movimiento lento de flujo, pulso y escaneo con alternativa de movimiento reducido.",
+      "Identidad expresada una sola vez dentro del hero, seguida únicamente por acciones.",
+      "Jerarquía editorial compacta, con una sola llamada principal al portafolio.",
+      "Secciones abiertas separadas por espacio y reglas finas.",
+      "Etiquetas monoespaciadas reservadas para datos técnicos reales.",
+      "Evidencia textual por encima de adornos, métricas o autoelogios."
+    ],
+    "rules": [
+      { "name": "The Native Theme Rule", "body": "Toda elección debe seguir siendo legible en los temas claro y oscuro de GitHub; no se depende de un color de fondo fijo.", "section": "colors" },
+      { "name": "The Blue Means Destination Rule", "body": "El azul se reserva para enlaces reales y mantiene visible qué texto conduce a otro lugar.", "section": "colors" },
+      { "name": "The Cyan Means Signal Rule", "body": "El cyan pertenece al sistema técnico del hero: indica conexión, proceso o estado; no sustituye el azul de enlace.", "section": "colors" },
+      { "name": "The Evidence Before Adjectives Rule", "body": "El peso tipográfico destaca nombres, acciones y resultados; no convierte frases promocionales en titulares.", "section": "typography" },
+      { "name": "The Open Block Rule", "body": "Los proyectos se separan con ritmo y encabezados, no con tarjetas, fondos individuales o cuadrículas que compitan con el contenido.", "section": "layout" },
+      { "name": "The Single Identity Rule", "body": "El hero es la única identidad principal; después de él no se repiten avatar, nombre, especialidad ni frase de presentación.", "section": "layout" },
+      { "name": "The Flat Record Rule", "body": "Ningún bloque editorial recibe sombra, brillo o elevación; el resplandor queda confinado a las señales del diagrama.", "section": "elevation" },
+      { "name": "The Motion Is Status Rule", "body": "Movimiento sólo explica flujo o estado y siempre ofrece una versión estática equivalente.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do presentar cada proyecto con nombre, utilidad concreta y stack verificable.",
+      "Do mantener `leonardsf.dev` como acción principal inequívoca.",
+      "Do usar encabezados semánticos, texto alternativo útil y enlaces comprensibles fuera de contexto.",
+      "Do probar la lectura en los temas claro y oscuro y en ancho móvil.",
+      "Do dejar que espacio, peso y reglas finas construyan la jerarquía.",
+      "Do mantener variantes SVG separadas para escritorio y móvil en vez de escalar una sola composición.",
+      "Do incluir `prefers-reduced-motion` en cualquier movimiento futuro del plano técnico.",
+      "Do tratar el texto accesible del SVG como respaldo de la identidad visual principal."
+    ],
+    "donts": [
+      "Don't añadir badges decorativos, contadores, barras de progreso o métricas sin contexto real.",
+      "Don't usar emojis como iconografía, separadores o sustitutos de etiquetas.",
+      "Don't encerrar cada proyecto en una tarjeta ni simular una landing page con tablas HTML.",
+      "Don't usar etiquetas técnicas para conceptos vagos o competencias no demostradas.",
+      "Don't escribir copy genérico, grandilocuente o con tono de agencia.",
+      "Don't reutilizar el cyan como color de enlace o acento decorativo fuera del sistema de señal.",
+      "Don't añadir movimiento que no represente flujo, estado o escaneo técnico.",
+      "Don't repetir debajo del hero avatar, nombre, especialidad o frase de presentación."
+    ]
+  }
+}
