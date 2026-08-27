@@ -20,7 +20,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 
 ## Registro de proyectos
 
-### MI SAES 2.0
+### [MI SAES 2.0 ↗](https://chromewebstore.google.com/detail/mi-saes-20/hflcfnffkbdeeneoffpnbalnefhgdbig)
 
 **Una extensión de Chrome para estudiantes del IPN.** Añade al SAES una forma más clara de consultar materias, revisar ocupabilidad y preparar horarios sin sacar la información del navegador.
 
